@@ -1,0 +1,17 @@
+:root {
+    --back: #6495ed;
+    --red: #ff0000;
+    --green: #00ff00;
+    --blue: #0000ff;
+    --white-gray: #888888;
+    --dark:#000000;
+  }
+body {background-color:var(--dark);}
+h1 {
+      background-color:var(--back);
+}
+
+p.a {background-color:var(--red);}
+p.b {background-color:var(--green);}
+p.c {background-color:var(--blue);}
+p.d {background-color:var(--white-gray);}

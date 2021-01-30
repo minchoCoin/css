@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web Font Test</title>
+        <style>
+            @font-face {
+                font-family:"NanumPen";
+                src: url("Font\Nanumpen.ttf");
+            }
+            body {font-size:20px;}
+            p.nanum {
+                font-family:"Nanumpen",serif;
+                font-size:1.5em;
+                font-weight: bold;
+                font-style: italic;
+                text-align: justify;
+                color: red;
+                text-decoration: underline;
+        }
+            p.Monospace {font-family:"Monospace"}
+            p.cap{text-transform:capitalize;}
+            p.shadow{text-shadow: 3px 5px 10px #000000};
+        </style>
+    </head>
+    <body>
+        <p class="nanum">이것이 네이버에서 제공하는 Nanumpen 글꼴입니다. chrome 브라우저에서 실행해주세요. This is Nanumpen Font</p>
+        <p>이것은 기본 글씨</p>
+        <p class="Monospace">이것은 Monospace 폰트입니다. This is Monospace font</p>
+        <p class="cap">this is capitalize test for web</p>
+        <p class="shadow">Text shadow 처리!!</p>
+    </body>
+</html>
