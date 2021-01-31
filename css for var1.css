@@ -1,0 +1,26 @@
+@font-face{
+    font-family: "NanumPen";
+    src:url(".\Nanum\NanumBarunGothic.ttf");
+
+}
+@font-face{
+    font-family: "NanumBarunGothicBold";
+    src:url(".\Nanum\NanumBarunGothicBold.ttf");
+}
+h1,h2 {
+    color : green;
+    font-family : "NanumPen";
+    font-size:25pt;
+
+}
+strong, em {
+    font-family: "NanumBarunGothicBold";
+    font-size : 15pt;
+    font-style : italic;
+    color : orange;
+}
+li.red {
+    font: size 18pt;
+    font-weight : bold;
+    color : red;
+}
